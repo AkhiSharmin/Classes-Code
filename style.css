@@ -1,0 +1,68 @@
+/* colorful website style start  */
+.text-bg {
+  display: flex;
+  /* flex-direction: column-reverse;
+  flex-direction: column; */
+}
+.bg {
+  border: 10px solid lightslategray;
+  margin: 20px;
+  background-color: lightcoral;
+  padding: 20px;
+  border-radius: 20px;
+}
+.img {
+  height: 40px;
+  width: 40px;
+}
+.banner-bg {
+  text-align: center;
+  color: white;
+  height: 200px;
+  background-image: url("../img/pngtre.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darkslateblue;
+  background-blend-mode: multiply;
+}
+/* colorful website style end  */
+
+/* new website style start  */
+.parent {
+  display: flex;
+  gap: 10px;
+  background-color: blue;
+}
+/* box-one style start  */
+.text-box {
+  background-color: rgb(126, 181, 178);
+  border: 5 solid lightgreen;
+  padding: 10px;
+  width: 200px;
+  /* margin: 0 auto; */
+  /* margin-top: 10px; */
+}
+a {
+  text-decoration: none;
+}
+/* box-one style end  */
+
+#block_element {
+  text-decoration: underline wavy red;
+}
+
+.box-two {
+  box-shadow: 10px 10px 20px crimson;
+  /* box-shadow: 10px 5px 5px red; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.3) 0px -2px 6px 0px inset; */
+}
+/* #lorem {
+  display: block;
+  padding: 10px;
+} */
+/* new website style end  */
+.text-box2 {
+  margin-top: 10px;
+}

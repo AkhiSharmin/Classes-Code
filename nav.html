@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <link rel="icon" type="image/x-icon" href="img/logo/images (1).jpeg"> -->
+
+    <link rel="icon" type="images/x-icon" href="img/images.jpeg">
+
+    <title>Navber</title>
+
+    <style>
+        nav>ul {
+            display: flex;
+        }
+
+        ul li {
+            list-style: none;
+            margin-right: 10px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul li:hover {
+            background-color: red;
+            cursor: pointer;
+        }
+
+        h2:hover {
+            color: blue;
+            font-size: 30px;
+            font-weight: 700;
+            text-shadow: 2px 2px red;
+            cursor: pointer;
+        }
+
+        nav li .dropdown {
+            display: none;
+            position: absolute;
+            background-color: aquamarine;
+        }
+
+        nav li:hover .dropdown {
+            display: block;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h2>Hello Navbar</h2>
+        <nav>
+            <ul>
+                <li><a href="about.html" target="_blank">Home</a></li>
+                <li>About</li>
+                <li>Services
+                    <ul class="dropdown">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul>
+                </li>
+                <li>Contact
+                    <ul class="dropdown">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
